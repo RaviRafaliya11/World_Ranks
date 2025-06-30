@@ -1,34 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# WorldRanks: Country Data Explorer 🌍
 
-## Getting Started
+---
 
-First, run the development server:
+**WorldRanks** is a modern web application for exploring and ranking countries worldwide. It allows users to browse country data, sort by various metrics, filter by name, region, and subregion, and view detailed information for each country. The project showcases powerful Next.js features like `getStaticProps`, `getServerSideProps`, and dynamic routing.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* **Country Table Component:** Displays a list of countries with key information.
+* **Sort Functionality:** Sort countries by population, area, or other relevant metrics (value and direction).
+* **Filter Options:** Filter countries by name, region, and subregion for easy searching.
+* **Dynamic Routes:** Dedicated pages for detailed information on each country.
+* **Server-Side Rendering (SSR):** Utilizes `getServerSideProps` for dynamic data fetching.
+* **Static Site Generation (SSG):** Leverages `getStaticProps` and `getStaticPaths` for pre-rendering static pages.
+* **Responsive Layouts:** Adapts to different screen sizes for a great user experience on any device.
+* **Dark/Light Theme Switcher:** Allows users to toggle between dark and light modes.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## 🚀 Tech Stack
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+* **Frontend:** Next.js, React
+* **Styling:** (Specify your styling method, e.g., CSS Modules, Tailwind CSS)
+* **Data Fetching:** `getStaticProps`, `getServerSideProps`
+* **API:** (Mention if you used a specific Public API, e.g., REST Countries API)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## ⚙️ Installation
 
-## Learn More
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/RaviRafaliya11/worldranks.git](https://github.com/RaviRafaliya11/worldranks.git)
+    cd worldranks
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+3.  **Run the application:**
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
+    The application will be accessible at `http://localhost:3000`.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
